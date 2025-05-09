@@ -1,0 +1,264 @@
+/* css principal */
+#pagina_principal {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: auto;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.card_principal {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+  
+.card_principal:hover {
+    transform: scale(1.05);
+}
+
+.card_principal #img_principales {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+  
+#titulo_portafolio {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+.card #p_principal {
+    margin-bottom: 15px;
+    color: #555;
+}
+  
+#titulo_pagina {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* css pagina 1 */
+#body1 {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+.card1 {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 320px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+  
+#h11 {
+    font-size: 0.5rem 0;
+    margin-bottom: 1.5rem;
+}
+  
+#h22 {
+    margin: 0.25rem 0;
+    color: #666;
+    font-size: 1rem;
+}
+  
+#p1 {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    color: #444;
+}
+  
+.social a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+  
+#boton1 {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
+#boton1:hover {
+    background-color: red;
+}
+
+/* css pagina 2 */
+#body2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: auto;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+  
+.cards2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.card2 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+  
+.card2:hover {
+    transform: scale(1.05);
+}
+  
+.card2 #img2 {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+}
+  
+.card2 #h22 {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+.card2 #p2 {
+    margin-bottom: 15px;
+    color: #555;
+}
+  
+#h12 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* css pagina 3 */
+#body3 {
+    font-family: 'Pacifico', cursive;
+    background-color: #4a90e2;
+    text-align: center;
+    padding-top: 100px;
+    margin: 20px;
+}
+  
+input,
+#boton2 {
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+  
+#boton2 {
+    background-color: #E0FFFF;
+    color: black;
+    border: none;
+    cursor: pointer
+}
+  
+#boton2:hover {
+    background-color: #0000FF;
+}
+  
+.sombreado {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* css pagina 4 */
+#body3 {
+    font-family: 'Pacifico', cursive;
+    background-color: #4a90e2;
+    text-align: center;
+    padding-top: 100px;
+    margin: 20px;
+  }
+
+#boton3 {
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}  
+
+#boton3 {
+    background-color: #E0FFFF;
+    color: black;
+    border: none;
+    cursor: pointer
+}
+  
+#boton3:hover {
+    background-color: #0000FF;
+}
+
+/* css pagina 5 */
+#body5 {
+    font-family: 'Pacifico', cursive;
+    background-color: #4a90e2;
+    text-align: center;
+    padding-top: 100px;
+    margin: 20px;
+  }
+
+textarea,
+#convertir {
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+#convertir {
+    background-color: #E0FFFF;
+    color: black;
+    border: none;
+    cursor: pointer
+}
+  
+#convertir:hover {
+    background-color: #0000FF;
+}
